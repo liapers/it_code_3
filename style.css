@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  background-color: rgb(48, 20, 5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.mein-form {
+  align-self: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 190px;
+  padding: 10px 10px;
+  background-color: burlywood;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.item-form {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.item-form:last-child {
+  margin-bottom: 0;
+}
+
+.btn-form {
+  margin: 0;
+  min-height: 40px;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-form:hover{
+  border: 2px solid rgb(48, 20, 5);
+  background-color: beige;
+  font-weight: 700;
+  color:black;
+}
+
+
+.mein-text {
+  height: 50px;
+}
+
+.mein-desc {
+  height: 60px;
+}
+
+.output-forms {
+  flex-flow: row wrap;
+  min-width: 1000px;
+  justify-content: center;
+  align-content: stretch;
+  background-color: burlywood;
+  border-radius: 15px;
+  padding: 25px 25px;
+}
+
+.title {
+  margin: 0;
+  align-self: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.output-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: beige;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.output-form:last-child {
+  margin-bottom: 0;
+}
+
+.out-text {
+  width: 50%;
+}
+
+.out-num{
+  width: 30%;
+  font-weight: 900;
+
+}
+
+.delete-form{
+  margin-left: auto;
+}
+#delete{
+  visibility: hidden;
+}
+.taskNumber{
+  min-width: 50px;
+  min-height: 40px;
+  visibility: hidden;
+}
+
+#tasks{
+  width: 100%;
+}
